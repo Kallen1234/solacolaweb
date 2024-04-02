@@ -22,7 +22,7 @@ function App() {
         classNames="logo"
         unmountOnExit
       >
-        <img src={require("./solaCola.jpg")} alt="Logo" />
+        <img src={require("./solaCola1.png")} alt="Logo" />
       </CSSTransition>
       <CSSTransition
         in={showButtons}
