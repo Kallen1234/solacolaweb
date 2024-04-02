@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import "./App.css";
 import { CSSTransition } from "react-transition-group";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [showLogo, setShowLogo] = useState(false);
   const [showButtons, setShowButtons] = useState(false);
   const cryptoAddress = "CGQwZ8U3rLU1iWVZjm4hsJTSLbkT2eLKC5LWfaZuwRVP";
-
+  <Analytics />;
   setTimeout(() => {
     setShowLogo(true);
   }, 500);
@@ -39,7 +40,7 @@ function App() {
         </div>
       </CSSTransition>
       <div className="crypto-address" onClick={handleCryptoAddressClick}>
-        <span className="crypto-address-label">Crypto Address:</span>
+        <span className="crypto-address-label">Contract Address:</span>
         <p>CGQwZ8U3rLU1iWVZjm4hsJTSLbkT2eLKC5LWfaZuwRVP</p>
       </div>
       <CSSTransition
