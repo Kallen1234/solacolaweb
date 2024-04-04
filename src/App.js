@@ -81,8 +81,8 @@ function App() {
             </button>
           </a>
         </div>
-        <Analytics />;
       </CSSTransition>
+      <Analytics />;
     </div>
   );
 }
