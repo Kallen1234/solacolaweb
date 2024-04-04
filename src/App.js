@@ -7,7 +7,7 @@ function App() {
   const [showLogo, setShowLogo] = useState(false);
   const [showButtons, setShowButtons] = useState(false);
   const cryptoAddress = "CGQwZ8U3rLU1iWVZjm4hsJTSLbkT2eLKC5LWfaZuwRVP";
-  <Analytics />;
+
   setTimeout(() => {
     setShowLogo(true);
   }, 500);
@@ -81,6 +81,7 @@ function App() {
             </button>
           </a>
         </div>
+        <Analytics />;
       </CSSTransition>
     </div>
   );
