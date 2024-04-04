@@ -82,7 +82,7 @@ function App() {
           </a>
         </div>
       </CSSTransition>
-      <Analytics />;
+      <Analytics />
     </div>
   );
 }
